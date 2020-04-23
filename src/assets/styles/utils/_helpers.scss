@@ -1,0 +1,107 @@
+$gutters:
+  '0' 0,
+	'1' 8px,
+	'2' 16px,
+	'3' 18px,
+  '4' 32px,
+  '5' 64px,
+	'auto' auto;
+
+@each $i in $gutters {
+	%p-#{nth($i, 1)} {
+		padding: nth($i, 2);
+	}
+	%px-#{nth($i, 1)} {
+		padding-right: nth($i, 2);
+		padding-left: nth($i, 2);
+	}
+	%py-#{nth($i, 1)} {
+		padding-top: nth($i, 2);
+		padding-bottom: nth($i, 2);
+	}
+	%pr-#{nth($i, 1)} {
+		padding-right: nth($i, 2);
+	}
+	%pl-#{nth($i, 1)} {
+		padding-left: nth($i, 2);
+	}
+	%pt-#{nth($i, 1)} {
+		padding-top: nth($i, 2);
+	}
+	%pb-#{nth($i, 1)} {
+		padding-bottom: nth($i, 2);
+	}
+
+	%m-#{nth($i, 1)} {
+		margin: nth($i, 2);
+	}
+	%mx-#{nth($i, 1)} {
+		margin-right: nth($i, 2);
+		margin-left: nth($i, 2);
+	}
+	%my-#{nth($i, 1)} {
+		margin-top: nth($i, 2);
+		margin-bottom: nth($i, 2);
+	}
+	%mr-#{nth($i, 1)} {
+		margin-right: nth($i, 2);
+	}
+	%ml-#{nth($i, 1)} {
+		margin-left: nth($i, 2);
+	}
+	%mt-#{nth($i, 1)} {
+		margin-top: nth($i, 2);
+	}
+	%mb-#{nth($i, 1)} {
+		margin-bottom: nth($i, 2);
+	}
+
+
+	.p-#{nth($i, 1)} {
+		padding: nth($i, 2);
+	}
+	.px-#{nth($i, 1)} {
+		padding-right: nth($i, 2);
+		padding-left: nth($i, 2);
+	}
+	.py-#{nth($i, 1)} {
+		padding-top: nth($i, 2);
+		padding-bottom: nth($i, 2);
+	}
+	.pr-#{nth($i, 1)} {
+		padding-right: nth($i, 2);
+	}
+	.pl-#{nth($i, 1)} {
+		padding-left: nth($i, 2);
+	}
+	.pt-#{nth($i, 1)} {
+		padding-top: nth($i, 2);
+	}
+	.pb-#{nth($i, 1)} {
+		padding-bottom: nth($i, 2);
+	}
+
+	.m-#{nth($i, 1)} {
+		margin: nth($i, 2);
+	}
+	.mx-#{nth($i, 1)} {
+		margin-right: nth($i, 2);
+		margin-left: nth($i, 2);
+	}
+	.my-#{nth($i, 1)} {
+		margin-top: nth($i, 2);
+		margin-bottom: nth($i, 2);
+	}
+	.mr-#{nth($i, 1)} {
+		margin-right: nth($i, 2);
+	}
+	.ml-#{nth($i, 1)} {
+		margin-left: nth($i, 2);
+	}
+	.mt-#{nth($i, 1)} {
+		margin-top: nth($i, 2);
+	}
+	.mb-#{nth($i, 1)} {
+		margin-bottom: nth($i, 2);
+	}
+}

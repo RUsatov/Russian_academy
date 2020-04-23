@@ -1,19 +1,6 @@
-# accounts_chamber
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Сверстать раскрывающиеся списки элементов и фильтр по годам. Макет — https://www.figma.com/file/YTdir4YgvQJEkF4NUS9Isw/%5BGF%5D-%D1%82%D0%B5%D1%81%D1%82?node-id=0%3A1
+2. Используя vue и vuex, вывести в списки данные из json — https://drive.google.com/open?id=112waVibAHKyb8yuAVSKetBrKsNlYz97J
+   + в массиве ``result`` корневые элементы — это заголовки раскрывающихся списков
+   + в каждом корневом элементе массив ``studyGroups`` — это элементы раскрывающегося списка
+3. Реализовать фильтр по годам: в зависимости от выбранного года показывать только те элементы ``studyGroups``, у которых в свойстве ``startDate``
+ указан такой же год. Если для выбранного года в раскрывающемся списке нет ни одного элемента из ``studyGroups``, то такой список не отображать.

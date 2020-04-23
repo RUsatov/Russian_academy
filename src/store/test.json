@@ -1,0 +1,187 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "flowID": 1,
+      "caption": "Руководитель цифровой трансформации",
+      "captionGenitive": "",
+      "resultingDocument": "",
+      "lengthDays": 20,
+      "lengthHours": 60,
+      "studyGroups": [
+        {
+          "id": 1,
+          "caption": "Первая группа",
+          "syllabusID": 1,
+          "managerID": 0,
+          "manager": {},
+          "studentType": "government",
+          "startDate": "2018-05-01T00:00:00Z",
+          "finishDate": "2018-08-01T00:00:00Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "0001-01-01T00:00:00Z",
+          "tracks": null
+        },
+        {
+          "id": 2,
+          "caption": "Вторая группа",
+          "syllabusID": 1,
+          "managerID": 0,
+          "manager": {},
+          "studentType": "government",
+          "startDate": "2018-05-01T00:00:00Z",
+          "finishDate": "2018-08-01T00:00:00Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "0001-01-01T00:00:00Z",
+          "tracks": null
+        }
+      ],
+      "type": "mixed",
+      "isPublished": true,
+      "autoRecruitment": false,
+      "maxStudentsCount": 0,
+      "kasGUID": "0636c616-0162-11ea-8117-005056a03e4f",
+      "createdAt": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "flowID": 1,
+      "caption": "Цифровая трансформация и цифровая экономика: подходы к обучению",
+      "captionGenitive": "",
+      "resultingDocument": "",
+      "lengthDays": 5,
+      "lengthHours": 0,
+      "studyGroups": [
+        {
+          "id": 4,
+          "caption": "Обучение преподавателей в Москве (20-25 мая)",
+          "syllabusID": 3,
+          "managerID": 0,
+          "manager": {},
+          "studentType": "teacher",
+          "startDate": "2019-05-20T00:00:00Z",
+          "finishDate": "2019-05-25T00:00:00Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "0001-01-01T00:00:00Z",
+          "tracks": null
+        }
+      ],
+      "type": "mixed",
+      "isPublished": true,
+      "autoRecruitment": false,
+      "maxStudentsCount": 0,
+      "kasGUID": "e76fa8a2-0162-11ea-8117-005056a03e4f",
+      "createdAt": "0001-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "flowID": 3,
+      "caption": "программа обучения Дистант, созданная для тестовых целей",
+      "captionGenitive": "",
+      "resultingDocument": "",
+      "lengthDays": 0,
+      "lengthHours": 0,
+      "studyGroups": [
+        {
+          "id": 5,
+          "caption": "Учебная группа, (Тест Дистант)",
+          "syllabusID": 4,
+          "managerID": 12,
+          "manager": {},
+          "studentType": "government",
+          "startDate": "2020-01-27T22:43:00.779104Z",
+          "finishDate": "2020-03-05T22:43:00.779104Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "2020-01-20T22:43:00.788666Z",
+          "tracks": null
+        }
+      ],
+      "type": "distance",
+      "isPublished": true,
+      "autoRecruitment": true,
+      "maxStudentsCount": 5000,
+      "kasGUID": "",
+      "createdAt": "2020-01-20T22:43:00.788179Z"
+    },
+    {
+      "id": 5,
+      "flowID": 3,
+      "caption": "программа обучения Очная, созданная для тестовых целей",
+      "captionGenitive": "",
+      "resultingDocument": "",
+      "lengthDays": 0,
+      "lengthHours": 0,
+      "studyGroups": [
+        {
+          "id": 7,
+          "caption": "Учебная группа, (Тест Очная)",
+          "syllabusID": 5,
+          "managerID": 12,
+          "manager": {},
+          "studentType": "commerce",
+          "startDate": "2020-01-27T22:43:00.779104Z",
+          "finishDate": "2020-03-05T22:43:00.779104Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "2020-01-20T22:43:00.789759Z",
+          "tracks": null
+        },
+        {
+          "id": 6,
+          "caption": "Учебная группа, (Тест Очная)",
+          "syllabusID": 5,
+          "managerID": 12,
+          "manager": {},
+          "studentType": "government",
+          "startDate": "2020-01-27T22:43:00.779104Z",
+          "finishDate": "2020-03-05T22:43:00.779104Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "2020-01-20T22:43:00.789471Z",
+          "tracks": null
+        }
+      ],
+      "type": "mixed",
+      "isPublished": true,
+      "autoRecruitment": false,
+      "maxStudentsCount": 0,
+      "kasGUID": "",
+      "createdAt": "2020-01-20T22:43:00.78919Z"
+    },
+    {
+      "id": 2,
+      "flowID": 1,
+      "caption": "Дополнительная учебная программа",
+      "captionGenitive": "",
+      "resultingDocument": "",
+      "lengthDays": 15,
+      "lengthHours": 36,
+      "studyGroups": [
+        {
+          "id": 3,
+          "caption": "Третья группа",
+          "syllabusID": 2,
+          "managerID": 0,
+          "manager": {},
+          "studentType": "government",
+          "startDate": "2018-05-01T00:00:00Z",
+          "finishDate": "2018-08-01T00:00:00Z",
+          "isActive": false,
+          "statusChangedAt": "2020-04-21T00:01:00.000165Z",
+          "createdAt": "0001-01-01T00:00:00Z",
+          "tracks": null
+        }
+      ],
+      "type": "mixed",
+      "isPublished": true,
+      "autoRecruitment": false,
+      "maxStudentsCount": 0,
+      "kasGUID": null,
+      "createdAt": "0001-01-01T00:00:00Z"
+    }
+  ]
+}
